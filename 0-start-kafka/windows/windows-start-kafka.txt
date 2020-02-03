@@ -1,4 +1,4 @@
-# Create Zookeeper and Kafka Directory
+  # Create Zookeeper and Kafka Directory
 C:\kafka_2.12-2.0.0\data\zookeeper
 C:\kafka_2.12-2.0.0\data\kafka
 
@@ -8,7 +8,7 @@ C:\kafka_2.12-2.0.0\data\kafka
 # dataDir=C:/kafka_2.12-2.0.0/data/zookeeper
 
 # start zookeeper (make sure nothing is running on port 2181)
-zookeeper-server-start.bat config\zookeeper.properties
+zookeeper-server-start.bat ../../config/zookeeper.properties
 
 # Open a new command line (we leave zookeeper running in previous command line)
 
